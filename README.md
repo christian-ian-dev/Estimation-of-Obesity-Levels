@@ -29,21 +29,12 @@ categorical target variable representing obesity level.
 - Assess model assumptions, performance, and limitations
 
 ## Project Structure
-├── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned and transformed data
-├── notebooks/
-│ ├── 1_data_cleaning.ipynb
-│ ├── 2_EDA.ipynb
-│ └── 3_modeling.ipynb
-├── src/
-│ ├── preprocess.py
-│ ├── train.py
-│ └── evaluate.py
-├── README.md
-├── requirements.txt
-└── report.pdf
-
+- `data/raw/` – Original dataset (not modified)
+- `data/processed/` – Cleaned and transformed data
+- `notebooks/` – Jupyter notebooks for EDA and modeling
+- `src/` – Python scripts for preprocessing, training, and evaluation
+- `report.pdf` – Final technical report
+  
 ## Tools & Libraries
 - TBA
 
